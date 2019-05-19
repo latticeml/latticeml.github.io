@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
+<link href="http://lattice.ml/feed.xml" rel="self" type="application/atom+xml" />
+<link href="http://lattice.ml/" rel="alternate" type="text/html" />
+<updated>2019-05-19T17:07:13+02:00</updated>
+<id>http://lattice.ml/</id>
+<subtitle>Advanced solutions using artificial intelligence</subtitle>
+<entry>
+<title>MineRL Public Server Beta Launch</title>
+<link href="http://lattice.ml/2019/05/06/launch.html" rel="alternate" type="text/html" title="MineRL Public Server Beta Launch" />
+<published>2019-05-06T08:00:01+02:00</published>
+<updated>2019-05-06T08:00:01+02:00</updated>
+<id>http://lattice.ml/2019/05/06/launch</id>
+<content type="html" xml:base="http://lattice.ml/2019/05/06/launch.html">&lt;p&gt;We’re happy to announce that our Minecraft Server is now open to the public for beta testing! That means you can officially start playing Minecraft for Science. &lt;a href=&quot;{{site.url}}/server&quot;&gt;Here’s how!&lt;/a&gt;&lt;/p&gt;
+</content>
+<summary>We’re happy to announce that our Minecraft Server is now open to the public for beta testing! That means you can officially start playing Minecraft for Science. Here’s how!</summary>
+</entry>
+</feed>

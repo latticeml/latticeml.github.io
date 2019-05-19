@@ -1,0 +1,103 @@
+<head>
+    <!-- Compiled and minified CSS -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta charset="UTF-8">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136588502-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-136588502-1');
+    </script>
+    <!-- Google Tag Manager -->
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PHJQ7FC');</script>
+<!-- End Google Tag Manager -->
+    <meta name="google-site-verification" content="aYbXlfIjD-8A63cgg1tGM-9sn_e85fPcsPBvKVOD_wg" />
+    <link rel="stylesheet" href="http://lattice.ml/style.css">
+</head>
+ <nav class="top-bar">
+    <div class="top-bar-container top-bar-nav-container">
+
+    <div style="flex: 0.1">
+        <a href="http://lattice.ml/play/" style="z-index: 100; position: relative; font-size: 12px">PLAY</a>
+    </div>
+    <div style="flex: 0.1;">
+        <a href="http://lattice.ml/dataset/" style="z-index: 100; position: relative; font-size: 12px">DATASET</a>
+    </div>
+    <div style="flex: 0.1">
+        <a href="http://lattice.ml/competition/" style="z-index: 100; position: relative; font-size: 12px">COMPETITION</a>
+    </div>
+
+    </div>
+    <div class="top-bar-container" style="position: relative; top: -50px; width:100px; margin-left:auto; margin-right: auto; z-index: 120;">
+        <a href="http://minerl.io/index.html">MINERL</a>
+    </div>
+    <div class="top-bar-container top-bar-nav-container" style="position: relative; top: -100px">
+        <div style="flex: 0.1; margin-left: auto">
+            <a href="http://lattice.ml/about/" style="z-index: 100; position: relative; font-size: 12px">ABOUT</a>
+        </div>
+        <div style="flex: 0.1">
+            <a href="http://lattice.ml/blog/" style="z-index: 100; position: relative; font-size: 12px">BLOG</a>
+        </div>
+    </div>
+
+</nav>
+<header class="banner">
+    <h1 class="text1">About MineRL</h1>
+</header>
+
+<!-- Google Tag Manager (noscript) -->
+
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="main_content">
+<h2 id="the-problem">The Problem</h2>
+
+<p>Current methods in Deep RL are sample inefficient, especially as we move to more and more complex domains:
+<a href="https://blog.openai.com/openai-five/">OpenAI Five</a> collected <strong>900 years</strong> of experience per day and
+<a href="https://deepmind.com/blog/alphago-zero-learning-scratch/">AlphaGoZero</a> played <strong>4.9 million games</strong> of Go.
+Furthermore, there has been recent success in leveraging imitation learning to solve older benchmarks like Atari,
+as well as real-world problems such as robotic manipulation and self driving cars. More recently,
+<a href="https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/">AlphaStar</a> was able to 
+achieve Gold/Platinum MMR (~50% percentile human performance) using pretraining alone. We believe that leveraging human
+data will be an important piece of the puzzle as we tackle sample efficiency in more and more complex problems.</p>
+
+<p>However, despite the increasing number of benchmark RL environments, there has been a lack of large-scale imitation learning
+datasets. Thus, we release <strong>MineRL</strong>: a large-scale dataset on Minecraft of seven different tasks, which highlight
+a variety of research challenges including open-world multi-agent interactions, long-term planning, vision, control,
+navigation, and explicit and implicit subtask hierarchies. We also release a platform on which to collect more data:
+a Minecraft mod that records human trajectories, a public Minecraft server with minigames/Survival play with this mod,
+and a flexible framework to define new Minecraft tasks.</p>
+
+<h2 id="why-minecraft">Why Minecraft?</h2>
+
+<p>Minecraft is a rich environment to do RL on: it is an open-world environment, has sparse rewards, and has many innate
+task hierarchies and subgoals. Furthermore, it encompasses many of the problems that we must solve as we move towards
+more general AI (for example, what is the reward structure of “building a house”?). Besides all this, Minecraft has
+more than 90 million monthly active users, making it a good environment on which to collect a large-scale dataset.</p>
+
+<h2 id="paper">Paper</h2>
+
+<div class="paper-section">
+    <div class="paper-section-container">
+    <div>
+        <img class="paper-thumbnail" src="http://lattice.ml/assets/paper_thumbnail.jpg" />
+    </div>
+    <div>
+        <h3>Paper</h3>
+        <p>MineRL: A Large-Scale Dataset of Minecraft Demonstrations</p>
+        <h3>Citation</h3>
+        <p>Anonymous authors: paper under double-blind review</p>
+        <p style="margin: 10px 20px">
+        <a href="http://lattice.ml/dataset">[Dataset Details]</a>
+        </p>
+    </div>
+    </div>
+</div>
+
+</div>

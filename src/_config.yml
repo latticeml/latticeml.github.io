@@ -1,0 +1,25 @@
+title: Lattice Machine Learning
+description: >- # this means to ignore newlines until "baseurl:"
+  Advanced solutions using artificial intelligence
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://lattice.ml
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - download-site.sh
+   - update.sh
+   - test.sh
+   - .gitignore
+   - README.md
